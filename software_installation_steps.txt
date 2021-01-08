@@ -1,0 +1,6 @@
+POSTGRES (CENTOS 8)
+1. sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+2. sudo yum install -y postgresql13-server
+3. postgresql-setup --initdb
+4. systemctl enable postgresql.service
+5. systemctl start postgresql.service
