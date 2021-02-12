@@ -17,7 +17,7 @@ for items in email_dict:
 
 	smtp_connector = smtplib.SMTP('smtp.gmail.com', 587)
 	smtp_connector.starttls()
-	smtp_connector.login('ankitforcodes@gmail.com', 'idlfumqaatnohlvi')
+	smtp_connector.login('ankitforcodes@gmail.com', 'xxxxx')
 
 	smtp_connector.send_message(email)
 	smtp_connector.quit() 
